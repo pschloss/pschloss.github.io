@@ -1,6 +1,6 @@
 --- 
 title       : Development of a 16S rRNA gene sequencing pipeline for the MiSeq
-subtitle    : "http:goo.gl/KATDw8"
+subtitle    : "http://goo.gl/KATDw8"
 date        : August 27, 2014
 author      : Patrick D. Schloss, PhD (@PatSchloss)
 job         : Department of Microbiology & Immunology
