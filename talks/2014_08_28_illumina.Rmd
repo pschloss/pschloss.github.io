@@ -323,10 +323,8 @@ cat('<script type="text/javascript">', readLines(system.file('WebGL', 'CanvasMat
  * Illumina (no $ to SchlossLab)
  * 454 (free seq. runs)
  * U of M Seq. Core
-* **NIH**
- * NIH R01HG005975 
- * NIH R01GM099514  
-
+* **NIH**: R01HG005975, R01GM099514  
+* http://goo.gl/KATDw8
 
 *** {name: right}
 
