@@ -576,8 +576,31 @@ box()
 
 ---
 
-## Are the "climax" communities more similar to each other than the donors were to each other?
+## How do the communities change?
 
+```{r, echo=FALSE, fig.align="center", fig.width=10, fig.height=8}
+shared <- read.table(file="/Users/pschloss/Desktop/community.assembly/assembly.unique.good.good.filter.unique.precluster.pick.pds.wang.pick.tx.1.subsample.shared", header=T, row.names=2)
+shared <- shared[,-c(1,2)] / 1000
+select <- rownames(metadata[metadata$donor=="H3293" & metadata$site=="stool" & metadata$treatment=="none" & metadata$strain=="C57Bl/6",])
+good.samples <- rownames(shared) %in% select
+
+select.shared <- shared[good.samples,]
+good.otus <- apply(select.shared, 2, sum) > 0.2
+select.shared <- select.shared[,good.otus]
+day <- gsub(".*\\.D0?(\\d*)\\..*", "\\1", rownames(select.shared))
+
+composite <- aggregate(select.shared, by=list(day), mean)
+rownames(composite) <- composite$Group.1
+composite <- composite[,-1]
+composite <- composite[order(as.numeric(rownames(composite))),]
+
+plot(composite[,"Otu007"]~rownames(composite), type="l", ylim=c(0,0.2), ylab="Relative abundance", xlab="Day", lwd=3)
+points(composite[,"Otu005"]~rownames(composite), type="l", col="red", lwd=3)
+points(composite[,"Otu003"]~rownames(composite), type="l", col="blue", lwd=3)
+points(composite[,"Otu008"]~rownames(composite), type="l", col="darkgreen", lwd=3)
+legend(x=15, y=0.20, legend=c("Akkermansia", "Paraprevotella", "Porphyromonadaceae", "Blautia"), lwd=3, col=c("black", "red", "blue", "darkgreen"))
+
+```
 
 ---
 
@@ -595,6 +618,7 @@ to each other? **Uh, actually the opposite**
 ## Going forward...
 
 * Have replicated C57Bl/6 vs. Swiss Webster experiment with an additional stool sample
+* Need to look closer at successional patterns for each donor - taxonomy or function?
 * Would be interesting to know how different the immune profile is for these various "climax" communities
 * Think... different.
 

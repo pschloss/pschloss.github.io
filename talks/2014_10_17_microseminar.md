@@ -1928,8 +1928,9 @@ to each other?
 
 ---
 
-## Are the "climax" communities more similar to each other than the donors were to each other?
+## How do the communities change?
 
+<img src="assets/fig/unnamed-chunk-13-1.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" style="display: block; margin: auto;" />
 
 ---
 
@@ -1947,6 +1948,7 @@ to each other? **Uh, actually the opposite**
 ## Going forward...
 
 * Have replicated C57Bl/6 vs. Swiss Webster experiment with an additional stool sample
+* Need to look closer at successional patterns for each donor - taxonomy or function?
 * Would be interesting to know how different the immune profile is for these various "climax" communities
 * Think... different.
 
