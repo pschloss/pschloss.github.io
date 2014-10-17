@@ -1,6 +1,6 @@
 ---
-title       : "What is past is prologue:"
-subtitle    : "Deciphering assembly rules within the murine microbiome"
+title       : "What is past is prologue: Deciphering assembly rules within the murine microbiome"
+subtitle    : "http://goo.gl/VpSm5u"
 date        : October 16, 2014
 author      : Patrick D. Schloss, PhD (@PatSchloss)
 job         : The Department of Microbiology & Immunology at The University of Michigan
@@ -1968,7 +1968,7 @@ to each other? **Uh, actually the opposite**
 ## A pedantic note about process...
 
 * This presentation was prepared in R using the `knitr` and `slidify` packages.
-  * It is available through our github repository
+  * It is available through our [github repository](https://github.com/pschloss/pschloss.github.io/tree/master/talks)
   * Once the manuscript is submitted the document (and paper) will be fully executable
   * `write.paper` is a reality
 * If a first year grad student downloaded your sequence data from your last paper, would they be able to reproduce your results? Here are some examples from our lab:
@@ -1988,6 +1988,9 @@ to each other? **Uh, actually the opposite**
   * Joe Zackular, PhD
   * Kathryn Iverson
   * Sarah Westcott
+
+
+# http://goo.gl/VpSm5u
 
 ***{name: right}
 * Collaborators
