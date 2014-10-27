@@ -1,6 +1,6 @@
 ---
 title       : "Reproducibility in microbiome research"
-subtitle    : ""
+subtitle    : "http://pschloss.github.io/talks/2014_10_27_ReproducibleResearch.html"
 date        : October 27, 2014
 author      : Patrick D. Schloss, PhD
 job         : The Department of Microbiology & Immunology at The University of Michigan
@@ -10,19 +10,23 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : standalone    # {selfcontained, standalone, draft}
 knit        : slidify::knit2slides
---- 
+---
 
-```{r setup, results='asis', echo=FALSE, warning=FALSE}
-library(rgl)
+## Motivation
+
+* Have you ever wondered why so many cook books suck?  
+* Have you ever wondered how a computer programming/analysis book can have an errata?  
+
+> * After Schubert et al. and Zackular et al. were published I received numerous emails asking for information about how we did things and asking for downstream files
+> * As a PI, I have *no idea* how my people are doing analysis. Take a pipeline based on an SOP from N months/years ago and copy and paste
+> * Reproducible research problems in wider fields of science
+
+```{r setup, echo=FALSE, results="asis", warning=FALSE}
 library(knitr)
+library(rgl)
 knit_hooks$set(webgl = hook_webgl)
 cat('<script type="text/javascript">', readLines(system.file('WebGL', 'CanvasMatrix.js', package = 'rgl')), '</script>', sep = '\n')
 ```
-
-
---- .segue .dark 
-
-### Have you ever wondered why so many cook books suck?
 
 ---
 
@@ -320,15 +324,17 @@ plot(pcoa, pch=19, col=period)
 
 * "The term [reproducible research](http://en.wikipedia.org/wiki/Reproducibility) refers to the idea that the ultimate product of academic research is the paper along with the full computational environment used to produce the results in the paper such as the code, data, etc. that can be used to reproduce the results and create new work based on the research." - Wikipedia
 * "Your best collaborator is you 6 months from now"
+* If I am the senior author on a paper, there will be a IPython notebook or knitr-based document available on github.
 
 ---
 
 ## What to do next
 
+* Start slow, baby steps
 * Software
   * Uninstall Prism/Excel
   * [github](http://github.com) account
   * [RStudio](http://www.rstudio.com)
   * [knitr tutorials](http://yihui.name/knitr/demo/showcase/)
-* 
+
 
