@@ -668,6 +668,7 @@ to each other? **Uh, actually the opposite**
 ***{name: right}
 * Collaborators
   * Vince Young
+  * Gary Huffnagle
   * Tom Schmidt
 
 * U of M Host-Microbiome Initiative
