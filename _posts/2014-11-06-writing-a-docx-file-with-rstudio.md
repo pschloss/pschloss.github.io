@@ -24,20 +24,17 @@ the file `test.Rmd`. If you are going to use knitr blocks you want the `.Rmd`
 extension. Alternatively, you can just name it `test.md`. This creates a new
 file for you with some generic text and a YAML header that looks like so...
 
-````
----
-title: "test.Rmd"
-author: "Patrick D. Schloss"
-date: "November 6, 2014"
-output: word_document
----
-````
+    ---  
+    title: "test.Rmd"  
+    author: "Patrick D. Schloss"
+    date: "November 6, 2014"
+    output: word_document
+    ---
 
 If you go ahead and hit `Knit Word` you'll generate a docx file. It's kind of
 ugly and doesn't have the formatting I'd like to use. So, what to do? Alter the
 YAML header to look like this...
 
-````
     ---  
     title: "test.Rmd"  
     author: "Patrick D. Schloss"  
@@ -46,7 +43,7 @@ YAML header to look like this...
       word_document:  
         reference_docx: template.docx  
     ---
-````
+
 
 This will take your file and format it according to the "Normal" style in the
 template.docx file. So, you need to go and create a blank Word file called
