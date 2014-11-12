@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "knitr Tutorial"
+title:  "Laboratory reproducible research (Part 2)"
 date:   2014-11-12
 comments: true
 ---
