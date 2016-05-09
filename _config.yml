@@ -1,9 +1,8 @@
 # Site settings
-title: Pat Schloss's Notebook
+title: Suck less...
 email: pschloss@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Computational notebook for Pat Schloss, an Associate Professor in the
-  Department of Microbiology & Immunology at the University of Michigan.
+  Blog of Pat Schloss where he explores efforts at professional and personal improvement. Pat is a professor in the Department of Microbiology & Immunology at the University of Michigan where he [runs a lab](http://www.schlosslab.org). 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pschloss.github.io" # the base hostname & protocol for your site
 twitter_username: pschloss
