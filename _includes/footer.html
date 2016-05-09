@@ -2,19 +2,10 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
+      <div class="footer-col  footer-col-3">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
               <span class="icon  icon--github">
@@ -26,9 +17,7 @@
               <span class="username">{{ site.github_username }}</span>
             </a>
           </li>
-          {% endif %}
 
-          {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
               <span class="icon  icon--twitter">
@@ -41,12 +30,11 @@
               <span class="username">{{ site.twitter_username }}</span>
             </a>
           </li>
-          {% endif %}
         </ul>
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+        <p class="text">Blog of Pat Schloss where he explores efforts at professional and personal improvement. Pat is a professor in the Department of Microbiology & Immunology at the University of Michigan where he <a href="http://www.schlosslab.org">runs a lab</a>. </p>
       </div>
     </div>
 

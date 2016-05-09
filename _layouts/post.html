@@ -10,7 +10,9 @@ layout: default
 
   <article class="post-content">
     {{ content }}
-    {% include comments.html %}
+		{% if page.comments %}
+    	{% include comments.html %}
+		{% endif %}
   </article>
 
 </div>
