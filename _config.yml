@@ -1,9 +1,9 @@
 # Site settings
-title: Suck less...
+title: Suck until you don't
 email: pschloss@umich.edu
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pschloss.github.io" # the base hostname & protocol for your site
-twitter_username: pschloss
-github_username:  pschloss
+twitter_username: PatSchloss
+github_username: pschloss
 
 # Build settings

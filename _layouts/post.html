@@ -1,18 +1,50 @@
 ---
 layout: default
 ---
+
 <div class="post">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • {% include share_buttons.html %}</p>
   </header>
 
   <article class="post-content">
     {{ content }}
-		{% if page.comments %}
-    	{% include comments.html %}
-		{% endif %}
-  </article>
 
+
+	<div class="blog-nav">
+		{% for post in site.categories.posts %}
+	        {% if post.url == page.url %}
+	            {% assign post_index0 = forloop.index0 %}
+	            {% assign post_index1 = forloop.index %}
+	        {% endif %}
+	    {% endfor %}
+	    {% for post in site.categories.posts %}
+	        {% if post_index0 == forloop.index %}
+	            {% assign next_post = post %}
+	        {% endif %}
+	        {% if post_index1 == forloop.index0 %}
+	            {% assign prev_post = post %}
+	        {% endif %}
+	    {% endfor %}
+
+		<div class="row">
+			<div class="col-md-6">
+				{% if prev_post %}
+					<a href="{{ prev_post.url }}">Previous: {{prev_post.title}}</a> <br>
+				{% endif %}
+			</div>
+			<div class="col-md-6">
+				{% if next_post %}
+			        <a class="pull-right" href="{{ next_post.url }}">Next: {{next_post.title}}</a> <br>
+			    {% endif %}
+			</div>
+		</div>
+	</div>
+
+	{% if page.comments %}
+		{% include disqus.html %}
+	{% endif %}
+  </article>
 </div>
