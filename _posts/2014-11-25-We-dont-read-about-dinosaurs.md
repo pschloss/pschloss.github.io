@@ -97,7 +97,7 @@ that thinks it's fun to do dissections. Perhaps that's because she's the only
 girl that is encouraged to think digging through intestines is a normal thing
 for a girl to do. Will she be a baker or a surgeon? Probably neither. Instead,
 think of the lessons she picks up along the way about the value of
-baking birtday cakes to lift the spirits of her siblings or about science from
+baking birthday cakes to lift the spirits of her siblings or about science from
 butchering chickens. As I tried to say in 140 characters, the biggest challenge
 I face is figuring out my students' and kids' interests and knowing how to use
 those to communicate the fundamental ideas that they need to move on to learn
