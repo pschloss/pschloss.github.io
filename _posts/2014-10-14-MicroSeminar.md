@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MicroSeminar: A new way of doing conferences"
-author: "PD. Schloss"
+author: "PD Schloss"
 date: "October 14, 2014"
 comments: true
 ---
