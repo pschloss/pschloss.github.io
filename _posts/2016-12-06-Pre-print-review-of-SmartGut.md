@@ -14,7 +14,7 @@ At the end of October, uBiome put out a [press release](http://www.prweb.com/rel
 3. I'm interested in getting feedback on my approach as a peer-reviewer.
 
 
-This review is also posted in the Disqus comment box over at bioRxiv.
+This review is also posted in the Disqus comment box over at [bioRxiv](http://biorxiv.org/content/early/2016/10/31/084657#comment-3038745433).
 
 
 
@@ -45,4 +45,4 @@ Minor comments:
 
 10. "dysbiosis" is used throughout the manuscript. This is a trendy piece of jargon that is pretty meaningless. Furthermore, their method does not really address the whole community, which is usually done when describing a dysbiotic state. This manuscript describes the quantification of single strains.
 
-11. Peptoclostridium difficile is not the valid name for Clostridium difficile. At this point, it appears that the only valid name is Clostridioides difficile (http://www.sciencedirect.com/science/article/pii/S1075996416300762).
+11. I do not believe that Peptoclostridium difficile is a valid name for Clostridium difficile. At this point, it appears that the most recent valid name is Clostridioides difficile (http://www.sciencedirect.com/science/article/pii/S1075996416300762).
