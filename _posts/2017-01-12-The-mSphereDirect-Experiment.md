@@ -22,4 +22,4 @@ Regardless of the outcome of this experiment, I applaud ASM and *mSphere* for ta
 
 ---
 
-<b id="f1">*</b> It should be painfully obvious that I don't speak for ASM, the University of Microbiology, or anyone by myself. [↩](#a1)
+<b id="f1">*</b> It should be painfully obvious that I don't speak for ASM, the University of Michigan, or anyone by myself. [↩](#a1)
