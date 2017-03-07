@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Preprint Review: 'Cohesion: A method for quantifying the connectivity of microbial communities'"
+title: "Pre-print review of Cohesion manuscript"
 author: "PD Schloss"
 date: "March 7, 2017"
 comments: false
