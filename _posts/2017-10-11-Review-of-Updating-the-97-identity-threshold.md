@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Review of Updating the 97% identity..."
+title: "Pre-print Review of 97% Identity Threshold Manuscript"
 author: "PD Schloss"
 date: "October 11, 2017"
 comments: false
