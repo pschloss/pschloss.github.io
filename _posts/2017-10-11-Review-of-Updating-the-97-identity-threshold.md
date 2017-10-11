@@ -32,4 +32,5 @@ Major comments.
 <br>
 
 [^1]: I have posted a copy of this review at [bioRxiv](https://www.biorxiv.org/content/early/2017/09/21/192211#comment-3562391836). Please post any comments there.
+
 [^2]: Noah Fierer and members of his group have recently had similar blog posts on the issues I discuss in this review. Here's one on [intragenomic variation](http://fiererlab.org/2017/10/09/intragenomic-heterogeneity-and-its-implications-for-esvs/) and one on [lumping versus splitting](http://fiererlab.org/2017/05/02/lumping-versus-splitting-is-it-time-for-microbial-ecologists-to-abandon-otus/)
