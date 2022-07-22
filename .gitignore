@@ -2,3 +2,5 @@ _site
 _talks/assets/fig
 
 .sass-cache
+
+Gemfile.lock
